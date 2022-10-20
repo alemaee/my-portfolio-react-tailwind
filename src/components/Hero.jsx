@@ -10,10 +10,10 @@ function Hero() {
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto p-8">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <h1 className="text-2xl font-hF">hello,</h1>
-          <p className="py-3 text-5xl md:text-7xl font-bold font-bF">
+          <p className=" text-5xl md:text-7xl font-bold font-bF">
             I'm Elamae. A Designer
           </p>
-          <p className="text-2xl font-bF">
+          <p className="text-1 font-bF py-5">
             I love designing simple things and also I'm a frontend developer.
           </p>
         </div>

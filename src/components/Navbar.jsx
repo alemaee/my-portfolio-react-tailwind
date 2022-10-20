@@ -10,11 +10,11 @@ const Navbar = () => {
 
   const handleClose = () => setNav(!nav);
   return (
-    <div className="w-screen h-[80px] bg-zinc-200 fixed z-10">
+    <div className="w-screen h-10 bg-zinc-200 z-10 fixed">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center pl-8">
-          <img className="w-10 h-10" src={logoImg} alt="/" />
-          <ul className="hidden md:flex font-bF">
+          <img className="w-8 h-8" src={logoImg} alt="/" />
+          <ul className="hidden md:flex font-bF" >
             <li>
               <Link to="home" smooth={true} duration={500}>
                 Home

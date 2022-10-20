@@ -3,11 +3,11 @@ import React from "react";
 function About() {
   return (
     <div className="max-w-[1240px] mx-auto py-1 p-8">
-      <div className="flex flex-col justify-center text-center md:items-start w-full px-2 py-8 ">
-        <h1 className="text-3xl font-bold font-bF ">So, who actually am I?</h1>
-        <p className="py-3 text-2xl md:text-[16px] font-bF">
+      <div className="flex flex-col justify-center text-center w-full px-2 py-8 ">
+        <h1 className="text-4xl font-bold font-bF ">So, who actually am I?</h1>
+        <p className="py-3 text-2xl md:text-[16px] font-bF ">
           Hey, Ela here! I'm being most creative on my own, I found my passion
-          in designing doing ramdom things.
+          in designing doing random things.
         </p>
       </div>
 
